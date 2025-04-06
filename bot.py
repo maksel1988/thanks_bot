@@ -8,6 +8,7 @@ from psycopg2 import sql
 import csv
 from io import StringIO
 import pandas as pd
+import urllib3.contrib.appengine as appengine
 
 # Конфигурация
 TOKEN = os.getenv('7683983088:AAFLJDWfegXb0YkJIGo2t8NAED1ED3xe2WU')
